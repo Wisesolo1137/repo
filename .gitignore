@@ -1,0 +1,24 @@
+# Environment variables (contains sensitive config)
+.env
+
+# Docker volumes and data
+docker-compose.override.yml
+.docker/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Nginx generated configs (created from template)
+nginx/nginx.conf
